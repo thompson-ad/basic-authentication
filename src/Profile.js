@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "antd";
 import { Auth, Hub } from "aws-amplify";
-import Container from "./Container";
-import Form from "./Form";
+import Container from "./components/Container";
+import Form from "./components/Form";
 
 function Profile() {
   useEffect(() => {
